@@ -1,7 +1,7 @@
 # 1002ankit.github.io
 ====================
 
-## Hello world!
+## Hello everyone out there!
 
 This is my first try at github!
 
