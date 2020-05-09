@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Portfolio - Ankit Yadav</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/circles/0.0.6/circles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
 </head>
-<body class="bg-gray-800">
-  <div class="container h-full w-screen my-4 bg-white">
-    <div class="flex items-center p-4 mx-auto shadow-xl"><div class="text-6xl">Ankit Yadav</div></div>
-</div>
+<body class="antialiased bg-gray-200">
+    <header class="lg:px-16 px-6 relative bg-white flex flex-wrap items-center lg:py-0 py-2 shadow-xl "> 
+        <label for="menu-toggle" class="pointer-cursor lg:hidden block"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+            <nav>
+                <ul class="lg:flex lg:text-lg items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                    <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 hover:text-indigo-700" href="#about">About</a></li>        
+                    <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 hover:text-indigo-700" href="#project">Project</a></li>
+                    <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 hover:text-indigo-700" href="#contact">Contact</a></li>
+                    <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 hover:text-indigo-700 lg:mb-0 mb-2" href="#">Blog</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <a href="#" class="lg:ml-4 flex items-center justify-start lg:mb-0 mx-2 pt-2 absolute right-0 pointer-cursor">
+            <img class="rounded-full w-12 h-12 border-2 border-transparent hover:border-indigo-400" src="/img/ankit .png" alt="Ankit Yadav">         
+        </a>
+    </header>
+    <div class="container my-12 px-24">
+        <div class="flex lg:flex-row sm:flex-col">
+            <div class="py-8 mx-8">
+                <div class="text-6xl font-sans text-purple-600 font-bold mt-16">I<span class="text-teal-400">'</span>m
+                    <br/><u><span class="txt-rotate text-orange-500 text-3xl" data-period="2000" data-rotate='[ "Simply", "Blogger", "Data analyst", "Developer", "Designer" ]'></span></u>
+                    <br/>Ankit <br/>Yadav<span class="text-teal-400">.</span>
+                </div>
+            </div>
+            <div class="flex mx-auto my-auto">
+                <div class="flex sm:hidden lg:block">
+                    <img src="img/about-me.png" class="mx-auto bottom-0 border-b-2 border-purple-600" width="450" height="350">
+                    <div class="pt-8 px-4 hidden sm:hidden lg:block ">
+                        <button class="bg-transparent hover:bg-indigo-500 text-indigo-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" onclick="location.href='#about'">About me</button>
+                        <button class="bg-indigo-500 hover:shadow-xl hover:border-gray-200 text-white border font-semibold border-indigo-500 py-2 px-4 rounded" onclick="location.href='#contact'">Contact me</button></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="about" class="container py-12" data-aos="fade-right">
+        <div class="flex flex-col shadow-xl rounded w-11/12 bg-white mx-auto py-12 px-4">
+            <div class="text-2xl text- font-bold" ><h2 class="text-gray-600"><u>Professional Skills</u></h2></div>
+            <div class="text-base text-gray-500 font-thin uppercase">My knowledge level in Software</div>
+            <div class="canvas">
+                <div class="circle" id="circles-1"></div>
+                <div class="circle" id="circles-2"></div>
+                <div class="circle" id="circles-3"></div>
+                <div class="circle" id="circles-4"></div>
+                <div class="circle" id="circles-5"></div>
+            </div>
+            <div class="flex w-4/5 mx-auto my-4 b text-gray-700">
+                I'm skilled in web developing with the skills of CSS, HTML and JavaScript. I learnt wide range of JavaScript libraries and use them.<br/>
+                Some of the other programming languages which I learnt are C++ and Python. I'm also well known with Django and Flask that enrich my full-stack development skills.<br/>
+                Apart from this, I also used C++ to solve algorithms and handle data structures.
+            </div>
+        </div>
+    </section>
+    <section id="project" class="container py-12" data-aos="fade-right">
+        <div class="flex flex-col w-11/12 shadow-xl mx-auto rounded p-4 bg-white">
+            <div class="text-2xl font-bold" >
+                <h2 class="t text-gray-600"><u>Projects</u></h2>
+            </div> 
+            <div class="text-base font-thin text-gray-500 uppercase">Showcase Works</div>
+            <div class="flex my-12 p-4 mx-auto">
+                <div class="text-5xl py-12 b text-gray-400">Coming Soon!</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-12" data-aos="fade-right">
+        <div class="flex flex-col w-11/12 shadow-xl mx-auto rounded p-4 bg-white">
+            <div class="text-2xl font-bold" >
+                <h2 class="t text-gray-600"><u>Contact</u></h2>
+            </div> 
+            <div class="flex w-3/5 md:w-4/5 p-4 mx-auto">               
+            <img src="img/undraw_contact_us_15o2.png" class="rounded">
+            </div>
+            <div class="flex flex-col rounded py-8 bg-gray-300 shadow-lg items-center justify-center">
+                <div class="self-center">
+                    <img class="rounded-full" src="img/ankit .png">
+                </div>
+                <div class="md:text-left">
+                    <p class="text-xl">Ankit Yadav</p>
+                    <div class="text-blue-500">New Delhi, India</div>
+                    
+                    <div class="text-4xl text-center my-6">
+                        <a href="https://www.facebook.com/1002ankitKumar"><i class="fab fa-facebook hover:text-blue-500 text-blue-700"></i></a>
+                        <a href="https://instagram.com/i_ankit_yadav_"><i class="fab fa-instagram hover:text-red-400 text-red-600"></i></a>
+                        <a href="https://github.com/1002ankit"><i class="fab fa-github hover:text-gray-600"></i></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="carasole.js"></script>
+    <script src="main.js"></script>
+
 </body>
 </html>
