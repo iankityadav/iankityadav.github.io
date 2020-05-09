@@ -1,4 +1,4 @@
-# 1002ankit.github.io
+# iankityadav.github.io
 ====================
 
 ## Hello everyone out there!
@@ -6,11 +6,11 @@
 This is my first try at github!
 
 My Github user page is at: 
-https://github.com/1002ankit/
+https://github.com/iankityadav/
 
 My Github Pages repo can be found at:  
-https://github.com/1002ankit/1002ankit.github.io/
+https://github.com/iankityadav/iankityadav.github.io/
 
 And, soon, you can see my customized homepage at:
 
-http://1002ankit.github.io/
+http://iankityadav.github.io/
