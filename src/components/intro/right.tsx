@@ -1,13 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const IntroRight = () => {
   return (
     <div>
-      <div className="md:w-1/2 flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <div className="relative">
           <div className="border-r-2 border-yellow-500 rounded-full p-8">
-            <div className="w-48 h-48 bg-red-300 rounded-full object-cover p-8"></div>
+            <Image
+              alt="user"
+              src={"/images/user-vector.png"}
+              width={400}
+              height={400}
+            />
           </div>
           <div className="absolute inset-0 top-0 right-0 flex flex-col items-center rounded-full">
             <div className="bg-gray-800 rounded-full p-2 absolute top-0 right-1/12 transform -translate-x-1/2">
