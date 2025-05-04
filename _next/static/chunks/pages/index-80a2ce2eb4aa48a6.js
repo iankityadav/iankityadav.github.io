@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[332],{3757:(u,_,e)=>{"use strict";e.r(_),e.d(_,{default:()=>r});var n=e(7876);function r(){return(0,n.jsx)("h1",{children:"Hello GitHub Pages \uD83D\uDC4B"})}},6760:(u,_,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){return e(3757)}])}},u=>{var _=_=>u(u.s=_);u.O(0,[636,593,792],()=>_(6760)),_N_E=u.O()}]);
