@@ -3,23 +3,30 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && cp README.md out/",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -b main -d out"
+    "deploy": "gh-pages -b main -d out --nojekyll"
   },
   "author": "iankityadav",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "iankityadav.github.io": "file:",
     "next": "^15.3.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "22.15.3",
     "@types/react": "19.1.2",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.3",
     "gh-pages": "^6.3.0",
+    "tailwindcss": "^4",
     "typescript": "5.8.3"
   }
 }
