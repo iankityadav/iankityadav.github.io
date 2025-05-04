@@ -1,3 +1,0 @@
-# iankityadav.github.io
-
-====================
